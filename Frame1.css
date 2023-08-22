@@ -1,0 +1,371 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #120721;
+    
+    animation: loadpage 0.75s;
+}
+@keyframes loadpage {
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+#hiddenbox1{
+    position: relative;
+    height: 20px;
+    background-color: #120721;
+}
+.head{
+    margin: 40px;
+    position: relative;
+    bottom: 20px;
+}
+.title{
+    margin-left: 100px;
+    height: 150px;
+}
+.about{
+    cursor:pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    font-weight: 900;
+    color: #FD4556;
+
+    background-color: transparent;
+    border: 5px solid transparent;
+
+    transition: all 0.3s;
+
+    position: relative;
+    left: 560px;
+    bottom: 36px;
+}
+.about:hover{
+    transform:translateY(-2px);
+    background-color: transparent;
+    color: #ffb0b8;
+}
+.hr1{
+    position: relative;
+    bottom: 40px;
+    right: 17px;
+    width: 77%;
+}
+.letters{
+    margin-left: 170px;
+    line-height: 30px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+
+    position: relative;
+    bottom: 65px;
+}
+.ready{
+    margin-left: 170px;
+    line-height: 40px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+
+    position: relative;
+    bottom: 65px;
+}
+.rready{
+    font-weight: 900;
+}
+.viewbtn{
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FD4556;
+
+    padding: 0.5em 1em;
+    background-color: transparent;
+    border: 5px solid #FD4556;
+
+    transition: all 0.3s;
+
+    position: relative;
+    left: 170px;
+    bottom: 370px;
+}
+.viewbtn:hover{
+    transform: translateY(-7px);
+
+    background-color: #FD4556;
+    border-radius: 20px;
+
+    font-weight: 700;
+    color: #120721;
+}
+.contactbtn{
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 0.5em 1em;
+    color: #FD4556;
+    background-color: transparent;
+    border: 5px solid #FD4556;
+
+    transition: all 0.3s;
+
+    position: relative;
+    left: 190px;
+    bottom: 370px;
+}
+.contactbtn:hover{
+    transform: translateY(-7px);
+
+    background-color: #FD4556;
+    border-radius: 20px;
+
+    font-weight: 700;
+    color: #120721;
+}
+.kingsface{
+    height: 350px;
+
+    position: relative;
+    bottom: 350px;
+    left: 380px;
+
+    animation: move 2.5s linear infinite;
+}
+@keyframes move{
+    0%{
+        transform: translate(-10px,0px);
+    }
+    25%{
+        transform: translate(0px,-10px);
+    }
+    50%{
+        transform: translate(10px,0px);
+    }
+    75%{
+        transform: translate(0px,10px);
+    }
+    100%{
+        transform: translate(-10px,0px);
+    }
+}
+
+.title2{
+    margin-left: 100px;
+    height: 350px;
+
+    position: relative;
+    bottom: 150px;
+    left: 180px;
+}
+#hiddenbox2{
+    position: relative;
+    bottom: 490px;
+    height: 20px;
+
+    background-color: #120721;
+}
+.hr2{
+    position: relative;
+    bottom: 50px;
+}
+.hr3{
+    position: relative;
+    bottom: 50px;
+}
+.hr4{
+    position: relative;
+    top: 45px;
+}
+.about2{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    bottom: 40px;
+    left: 560px;
+}
+.vision{
+    margin-left: 170px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 100px;
+}
+.visiontxt{
+    margin-left: 300px;
+    line-height: 40px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+
+    position: relative;
+    top: 175px;
+}
+.rvision{
+    font-weight: 900;
+}
+.testimonials{
+    margin-left: 170px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 350px;
+}
+.testitxt{
+    margin-left: 300px;
+    line-height: 40px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+
+    position: relative;
+    top: 425px;
+}
+.rtesti1{
+    font-weight: 900;
+}
+.rtesti2{
+    font-weight: 900;
+}
+.Emily{
+    font-weight: 800;
+}
+.Mark{
+    font-weight: 800;
+}
+.why{
+    margin-left: 170px;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 565px;
+}
+.whytxt{
+    line-height: 50px;
+    margin-left: 300px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 610px;
+}
+.designtxt{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+
+    line-height: 40px;
+}
+.collabtxt{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+
+    line-height: 40px;
+}
+
+.innovtxt{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+
+    line-height: 40px;
+}
+.footer{
+    position: relative;
+    height: 300px;
+    width: 1350px;
+    top: 850px;
+
+    background-color: #220B43;
+}
+.elevate{
+    cursor: default;
+    margin-left: 170px;
+    line-height: 40px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+
+    position: relative;
+    top: 100px;
+}
+.relevate{
+    font-weight: 900;
+}
+.home{
+    position: relative;
+    right: 170px;
+
+    height: 70px;
+    float: right;
+}
+.home:hover{
+    transform:translateY(-2px);
+}
+.hometxt{
+    cursor: default;
+    float: right;
+    position: absolute;
+    bottom: 80px;
+    right: 140px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+
+    animation: blink 2s linear infinite;
+}
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+

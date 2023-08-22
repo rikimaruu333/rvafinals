@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #120721;
+    
+    animation: loadpage 0.75s;
+}
+@keyframes loadpage {
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.backbtn{
+    height: 70px;
+    position: relative;
+    left: 100px;
+    bottom: 150px;
+}
+.backbtn:hover{
+    transform:translateY(-2px);
+}
+.title2{
+    margin-left: 100px;
+    height: 280px;
+
+    position: relative;
+    left: 200px;
+    top: 135px;
+}
+.hr2{
+    position: relative;
+    top: 200px;
+}
+.hr3{
+    position: relative;
+    top: 200px;
+}
+.hr4{
+    position: relative;
+    top: 290px;
+}
+.works{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 210px;
+    left: 450px;
+}
+.vbox1{
+    box-shadow: 0px 3px 7px black;
+    position: relative;
+    height: 300px;
+    width: 1400px;
+    top: 430px;
+
+    background-color: #220B43;
+}
+.vbox1:hover{
+    transform:translateY(-5px);
+}
+.urban{
+    line-height: 50px;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 55px;
+}
+.urbantxt{
+    line-height: 30px;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: white;
+
+    position: relative;
+    top: 55px;
+}
+.urbanpic{
+    height: 100px;
+    float: right;
+
+    position: relative;
+    bottom: 135px;
+    right: 200px;
+}
+.vbox2{
+    box-shadow: 0px 3px 7px black;
+    position: relative;
+    height: 300px;
+    width: 1400px;
+    top: 630px;
+
+    background-color: #220B43;
+}
+.vbox2:hover{
+    transform:translateY(-5px);
+}
+.ecommerce{
+    line-height: 50px;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 55px;
+}
+.ecommercetxt{
+    line-height: 30px;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: white;
+
+    position: relative;
+    top: 55px;
+}
+.ecommercepic{
+    height: 50px;
+    float: right;
+
+    position: relative;
+    bottom: 155px;
+    right: 200px;
+}
+.vbox3{
+    box-shadow: 0px 3px 7px black;
+    position: relative;
+    height: 300px;
+    width: 1400px;
+    top: 830px;
+
+    background-color: #220B43;
+}
+.vbox3:hover{
+    transform:translateY(-5px);
+}
+.cookbook{
+    line-height: 50px;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 55px;
+}
+.cookbooktxt{
+    line-height: 30px;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: white;
+
+    position: relative;
+    top: 55px;
+}
+.cookbookpic{
+    height: 40px;
+    float: right;
+
+    position: relative;
+    bottom: 155px;
+    right: 200px;
+}
+.narrative{
+    line-height: 50px;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #FD4556;
+
+    position: relative;
+    top: 1000px;
+}
+.narrativetxt{
+    line-height: 40px;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+
+    position: relative;
+    top: 1000px;
+}
+.contactbtn{
+    cursor: pointer;
+    margin-left: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 0.5em 1em;
+    color: #FD4556;
+    background-color: transparent;
+    border: 5px solid #FD4556;
+
+    transition: all 0.3s;
+
+    position: relative;
+    top: 1020px;
+}
+.contactbtn:hover{
+    transform: translateY(-7px);
+
+    background-color: #FD4556;
+    border-radius: 20px;
+
+    font-weight: 700;
+    color: #120721;
+}
+.hiddenfooter{
+    position: relative;
+    height: 20px;
+    width: 1350px;
+    top: 1150px;
+
+    background-color: #120721;
+}
